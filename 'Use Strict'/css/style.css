@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.wrap{
+  margin: 0 auto;
+  width: 50vw;
+  padding-top: 51px;
+}
+h1{
+    padding-bottom: 30px;
+    font-size: 51px;
+    color: #607760;
+    font-weight: 300;
+    text-shadow: 2px 1px #FF0005;
+}
+li{
+  list-style: none;
+}
+ol>li>p{
+    font-family: monospace;
+    color: #3e2525;
+    font-size: 26px;
+    font-weight: bold;
+}
+span{
+  font-size: 26px;
+    color: #f11b1b;
+    line-height: 48px;
+}
+input[type="button"]{
+  height: 54px;
+width: 115px;
+border-radius: 5px;
+font-size: 18px;
+font-weight: 600;
+color: #105810;
+}
+.modal{
+  position: fixed;
+  height:180px;
+  width: 300px;
+  background-position: center;
+  border: 1px solid black;
+  left:50%;
+  top:50%;
+  margin-left: -150px;
+  margin-top: -100px;
+}
+.modal p{
+  margin-top:60px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+.overlay{
+  height:100%;
+  width:100%;
+  background-color: black;
+  opacity: 0.8;
+  position: fixed;
+  margin-top: -50px;
+}
